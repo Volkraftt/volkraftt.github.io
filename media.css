@@ -1,0 +1,194 @@
+@media screen and (max-width: 768px) {
+    /******************header****************************/
+    .header{
+        z-index: 21;
+        height: 60px;
+    
+    
+    }
+    .nav{
+       display: none;
+    }
+    .nav-item{
+        position: relative;
+        font-weight: 700;
+        font-family: 'Roboto';
+    font-style: normal;
+    line-height: 0px;
+    font-size: 24px;
+    color:#EFEDDC;
+    }
+    .nav-left{
+        margin-left: 70px;
+    }
+    
+
+    
+    /**************************Header-2*******************************/
+    .header-2{
+        z-index: 21;
+        height: 60px;
+    }
+    .nav-items-2{
+
+ height: 60px;
+    
+    }
+    .nav-logo{
+        transform: scale(.5);
+        margin-left: 0%;
+        z-index: 20;
+    }
+    .nav-2{
+        display: none;
+    }
+.progress-container{
+
+    z-index: 20;
+}
+.progressbar{
+    z-index: 20;
+}
+
+    .burger{
+        position: absolute;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        top: 15px;
+        }
+    .main-menu{
+        z-index: 1;
+        width: 100%;
+        top: -117px;
+        position: absolute;
+        transform: translateY(100%);
+        text-align: left;
+        max-height: 0;
+        font-size: 0;
+        overflow: hidden;
+        transform: translateY(100%);
+    }
+    .main-menu-1{
+        z-index: 1;
+        width: 100%;
+        top: -66px;
+        position: absolute;
+        transform: translateY(100%);
+        text-align: left;
+        max-height: 0;
+        font-size: 0;
+        overflow: hidden;
+        transform: translateY(100%);
+    }
+    .wrapper-link{
+        display: block;
+        width: 100%;
+        padding: 12px;
+        color: #EFEDDC;
+        text-decoration: none;
+        background-color: #3E3A24;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 24px;
+        color: #EFEDDC;
+        height: 30px;
+    }
+    .label-menu{
+        display: block;
+        padding-top: 3px;
+        padding-right: 20px;
+    }
+    #check-menu{
+        position: absolute;
+        display: block;
+        z-index: 21;
+        display: none;
+    }
+    #check-menu:checked ~ .main-menu{
+        max-height: 600px;
+      
+    }
+    #check-menu:checked ~ .main-menu-1{
+        max-height: 600px;
+      
+    }
+    .svg-map{
+        margin-top: 60px;
+      }
+/*************Header-end*********************/
+.main-section{
+    display: flex;
+    flex-direction: column;
+}
+.img-screen{
+    height: 50vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+/***********************Больше tablet********************/
+@media screen and (min-width: 769px) {
+   
+    .burger{
+        display: none;
+    }
+}
+
+/**********Меньше Tablet*************/
+
+@media screen and (max-width: 768px){
+
+ .header-2{
+        width: 100%;
+        height: 60px;
+    }
+    .nav-items-2{
+        width: 100%;
+        height: 60px;
+    
+    }
+    .nav-logo{
+        transform: scale(.5);
+        margin-left: 0%;
+    }
+    .nav-2-item{
+        font-size: 20 !important;
+    }
+    .svg-map{
+        margin-top: 60px;
+    }
+    .header{
+        width: 100%;
+        height: 60px;
+    }
+    
+    .nav-items{
+        width: 100%;
+        height: 60px;
+    
+    }
+    .nav-item{
+        font-size: 20 !important;
+    }
+
+}   
+
+
+
