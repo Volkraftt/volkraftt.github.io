@@ -1,3 +1,4 @@
+/*Телефон*/
 @media screen and (max-width: 768px) {
     /******************header****************************/
     .header{
@@ -140,7 +141,68 @@
 
 
 }
+/*1024 Laptop*/
+@media screen and (max-width: 1024px){
+    .img-char-main{
+        transform: scale(0.4) translate(-98%, -16%);
+    }
+    .img-char-main-1{
+        transform: scale(.8) translate(-46%, 6%);
+    }
+    .img-screen{
+        height: 100vh;
+    }
 
+}
+/* 768 Tablet*/
+@media screen and (max-width: 768px){
+    .section-1{
+        height: 775px;
+    }
+    .text-1{
+        width: 640px;
+    }
+    .img-char-main{
+        transform: scale(0.4) translate(-110%, -26%);
+    }
+    .img-char-main-1{
+        transform: scale(.8) translate(-85%, 21%);
+    }
+}
+/*425 Phone*/
+@media screen and (max-width: 425px){
+    .main-screen{
+        transform: scale(.65) translateY(10%);
+    }
+    .section-1{
+        height: 1473px;
+    }
+    .text-1{
+        font-size: 24px;
+        width: 260px;
+        top: 2%;
+    }
+    .section-2{
+        height: 884px;
+    }
+    .text-3{
+        font-size: 24px;
+        width: 260px;
+    }
+    .i-sec2-back{
+        height: 689px;
+    }
+    .img-char-main{
+        transform: scale(0.27) translate(-179%, -31%);
+    }
+    .img-char-main-1{
+        transform: scale(0.5) translate(-260%, 71%);
+    }
+    .onmap-link{
+        font-size: 24px;
+        padding: 15px 44px;
+    }
+}
 
 
 /***********************Больше tablet********************/
@@ -151,7 +213,7 @@
     }
 }
 
-/**********Меньше Tablet*************/
+/**********header*************/
 
 @media screen and (max-width: 768px){
 
