@@ -5686,3 +5686,6 @@ color: #EFEDDC;
 .about-title{
 	margin-bottom: 60px;
 }
+.about-title-fix{
+	    transform: translatex(-30px);
+}
