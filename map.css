@@ -61,12 +61,12 @@ color: #EFEDDC;
 
 }
 .link{
-  position: absolute;
-  font-family: 'Roboto';
+    position: absolute;
+  font-family: 'roadkill';
   font-style: normal;
-  font-weight: 700;
-  font-size: 30px;
-  line-height: 30px;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 36px;
   text-align: center;
   color: #EFEDDC;
   width: 200px;
