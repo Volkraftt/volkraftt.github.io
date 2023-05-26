@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>История финансового контроля: Россия</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Roboto:wght@700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <style>
+        body{
+            background: linear-gradient(180deg, #433A3A 0%, #3E3A24 0.01%, #787A4C 47.4%, #CF694D 100%);
+            background-attachment: fixed;
+        }
+    </style>
+    <!--Header-Start-->
+<header class="header-2">
+    <div class="nav-items-2">
+            <div class="nav-logo">
+                <a href="/index.html"><img src="images/logo.png" alt="Logo"></a>
+            </div>
+  
+        <nav class="nav-2">
+            <a href="map.html" class="nav-item-2">Карта</a>
+            <a href="story.html" class="nav-item-2">История</a>
+            <a href="about.html" class="nav-item-2">О проекте</a>
+        </nav>          
+    </div>
+        <!--ProgressBar-->
+    <div class="progress-container">
+        <div class="progressBar" id="myBar">
+        </div>
+    </div>
+           <!--Burger-->
+    <div class="burger">   
+            <input type="checkbox" id="check-menu">
+            <label class="label-menu" for="check-menu"><img src="images/Group 984.png" alt="" class="burger-img"></label>
+        <nav class="main-menu">
+            <a href="/map.html" class="wrapper-link">Карта</a>
+            <a href="/story.html" class="wrapper-link">История</a>
+            <a href="/about.html" class="wrapper-link">О проекте</a>
+        </nav>
+    </div>
+  </header>
+  <!--Header-End-->
+    <div class="control-title">
+        <div class="title">
+            <h1 class="title-text">История финансового контроля: Россия</h1>
+        </div>
+    </div>
+
+    <section class="f-visit" id="f-visit-close" >
+        <div class="i-slide1" style="display: flex;" id="i-first">
+            <p class="i-slide-text">Рассматривая легенду и обозначения на карте, Назар нашел местность, в которой еще никогда не был. </p>
+            <p class="i-slide-text">— Как странно! Я всю жизнь живу в деревне, но первый раз оказался здесь.</p>
+            <p class="i-slide-text">Назар решил осмотреться, так как локация была ему совершенно незнакома. Следуя за гулом толпы, он прошел несколько переулков и вышел к украшенной в честь праздника главной улице. </p>
+            <p class="i-slide-text">— Праздник? В Неверленде!? Чудеса…</p>
+            <p class="i-slide-text">Счетик безмятежно летел над его головой, высматривая вкусности. По обеим сторонам улице расположились лавки местных торговцев, звонкими голосами они зазывали покупателей.</p>
+            <p class="i-slide-text">Большинство из снующих вокруг людей были одеты в неброскую, выцветшую от солнца одежду. Мимо них Назар шел осторожно, стараясь не привлекать к себе лишнее внимание.</p>
+            <button class="i-slide-but-next i-but-h" onclick="IclickNext()"><img src="images/140.png" alt="" class="i-next-img" ></button>
+        </div>
+        <div class="i-slide2" style="display: none;" id="i-second">
+            <p class="i-slide-text">Проходя рядом с прилавком, на котором были разложены безделушки ручной работы, он заметил старика,  разительно отличавшегося от остальной толпы. Одежда его напоминала мантию, а на шее висело множество амулетов с гравировками рунических символов. В руке старик держал массивную клюку, из-за чего больше походил на шамана или колдуна, чем на деревенского рабочего.</p>
+            <p class="i-slide-text">Старец явно куда-то спешил, что было понятно по его суетливым действиям. Он даже не заметил, как из его сумки выпала толстая книга с серебристым переплетом. Назар подобрал потерянную вещь, но, подняв глаза, понял, что упустил старика из виду</p>
+            <p class="i-slide-text">Назар обратил внимание на название книги: «История финансового контроля: Россия».</p>
+            <p class="i-slide-text">— Россия? Нужно почитать.</p>
+            <p class="i-slide-text">Найдя более спокойное место около прилавка с напитками неподалеку, Назар опустился на землю и открыл первую страницу:
+            </p>
+            <button class="i-slide-but-prev i-but-h"onclick="IclickPrev()"><img src="images/139.png" alt="" class="i-prev-img"></button>
+            <button class="i-slide-but-close i-but-h" onclick="handleButtonClickv()">
+                <img src="images/138.png" alt="" class="i-but-close">
+            </button>
+        </div>
+    </section>
+<!--Body-->
+<main class="control-main">
+    <div class="control-section-1">
+            
+        <p class="control-text-1">Появление «Русской правды» (первого отечественного свода законов). В этом документе закреплялось право князя на денежный контроль.</p>
+        <p class="control-text-1">Устав, созданный Владимиром Мономахом в XII веке, существенно дополнил и упорядочил «Русскую Правду». Позднее, в период феодальной раздробленности на Руси, право на денежный контроль было вынуждено перейти народному собранию — вече. 
+        </p> 
+     
+    </div>
+            
+    <div class="control-section-2">
+        <div class="control-tooltiped-block">
+            <div class="tooltiped">
+                <div class="control-text-tool-1">Подробнее<br>о вече</a></div>
+        
+                <div class="tooltip">
+                  <div class="tooltip-content">
+                    <p class="control-text-tool-2">Вече — народное собрание в Древней Руси для обсуждения общих дел, а также для вопросов войны и мира. Вече могло распоряжаться волостными финансами и государственным земельным фондом.</p>
+                  </div>
+                </div>
+            </div>
+        </div>       
+    </div>
+
+    <div class="control-section-3">
+        <p class="control-text-2">Правление Ивана I Даниловича Калиты.</p>
+            <p class="c-text-right">У Ивана I было прозвище «Калита», которое переводится как «денежная сумка» (тюрк. alta — карман, кожаный мешок)</p>
+            <img src="images/321312.png" alt="" class="c-bg-text-right">
+        <p class="control-text-2">Получив первым из русских князей право собирать дань, Калита сумел обеспечить Московскому княжеству «передышку» от вторжений Золотой орды. Многие князья оказались в зависимости от московского князя. </p>
+            <img src="images/Group 665.png" alt="Карта Руси" class="control-section-1-img control-dates">
+        <p class="control-text-2 text-2-margin">Правление Ивана III Васильевича.</p>
+            
+        <p class="control-text-2">Царь создал приказы (приказную систему управления), одним из которых впоследствии была Большáя Казна (точная дата появления неизвестна, историки относят ее к XV веку), которая выполняла роль общегосударственного ведомства для хранения денег и драгоценностей.</p>
+    </div>
+
+        <div class="control-section-4">
+            <div class="control-tooltiped-block-2">
+                <div class="tooltiped-2">
+                    <div class="control-text-tool-3">Как<br>работала<br>приказная<br>система</a></div>
+            
+                    <div class="tooltip-2">
+                      <div class="tooltip-content-2">
+                        <img src="images/export 5.png" alt="Схема" class="control-img-tool-1">
+                      </div>
+                    </div>
+                </div>
+            </div>       
+        </div>
+
+        <div class="control-section-5">
+            <p class="control-text-3">Правление Ивана IV Васильевича.</p>
+                 
+            <p class="control-text-3">Существенным вкладом Ивана Грозного стало создание единой системы налогообложения. Царь провел перепись земли и ввел единицу податного обложения («большую соху»);</p>
+            <img src="images/Group 761.png" alt="Рассчет" class="control-section-5-img">
+            <p class="control-text-3">Создание Счетного приказа Алексеем Михайловичем.</p>
+                
+            <p class="control-text-3">Наиболее ранняя деятельность Приказа счетных дел датируется 1647 годом, а официальная дата создания — <strong>1654 год.</strong>  Приказ вел учет доходов и расходов государства, а также контролировал отчетную деятельность местных финансовых органов. По завершении очередной ревизии Счетный приказ распускался.</p>
+            <p class="control-text-3">Создание Ближней канцелярии, которая в 1719 году сменилась Ревизион-коллегией, а в 1722 — Ревизион-конторой (Счетная или Казначейская Контора)</p>
+            <p class="control-text-3">Она просуществовала до 1742. В 1711 Петром I также был создан Правительствующий Сенат</p>
+            <h3 class="control-text-h3">Неподчинение Сенату каралось «жестоким наказанием,  или смертью, по вине смотря». Император требовал от Сената «смотреть во всем Государстве расходов, и ненужные, а особливо напрасные, отставить».</h3>
+        </div>
+        
+        <div class="broken-line">
+            <p class="brokenline-text-a">Преобразование Царства в Империю в 1721 году</p>
+            <img src="images/brokenline.png" alt="" class="broken-line-img">
+        </div>
+
+        <div class="control-section-6">
+            <p class="control-text-4">Создание «Регламента, или Инструкции Ревизион-коллегии» Анны Иоанновны. Помимо этого появились девять Счетных комиссий, которые находились под надзором Генеральной Счетной комиссии для проведения ревизии запущенных счетов за прошлые годы.</p>
+            <img src="images/Frame 10.png" alt="" class="control-section-6-img reg">
+            <p class="control-text-4">Правление Елизаветы Петровны. В данный период истории Ревизион-коллегия возвращает свой статус единственного ревизионного учреждения.</p>
+            <img src="images/Group 280.png" alt="" class="control-section-6-img money">
+            <p class="control-text-4">Вступление в силу закона «Об учреждениях для управления губерниями» Екатерины II и создание Казенной палаты.</p>
+            <p class="control-text-4">В каждой губернии собирали информацию о численности населения, сведения о приходах и расходах, а палата наблюдала, чтобы все действия были законными.</p>
+            <h3 class="control-text-h3">После правления Петра Великого, в эпоху дворцовых переворотов, и до начала деятельности М.М. Сперанского при Александре I и Николае I организация органов финансового контроля не претерпела серьезных изменений и улучшений: в основном, менялись лишь названия или же разделялись функции внутри системы.</h3>
+            <p class="control-text-4">Передача управления государственными доходами и расходами под надзор министерства финансов, государственного казначея и государственного контролера. Государственный контроль в результате деятельности Михаила Михайловича Сперанского при Александре I стал независимым.</p>
+            <p class="control-text-4">Начало деятельности Валериана Алексеевича Татаринова на посту вице-директора канцелярии государственного контроля. Его реформа предполагала независимость финансового контроля.</p>
+                <div class="control-media-1">
+                    <img src="images/image-char.png" alt="" class="control-media-img-1">
+                    <p class="control-media-text-1">Государственный бюджет до 1855 года был хронически дефицитным, а зависимость от иностранных займов еще более усилилась. Контроль за использованием средств был также достаточно слабым, так как отсутствие единства кассы приводило к бездумным растратам и даже хищениям государственным средств. В. А. Татаринов серьезно занялся разрешением таких проблем. Самым важным его достижением было выведение региональных контрольных органов из-под влияния местной власти. Как последствие его реформы также выступает сосредоточение денежных средств исключительно в кассах министерства финансов.</p>
+                </div>
+            <p class="control-text-4 text-margin-1">Издание первого закона о Государственном контроле, который являлся самостоятельным и равноправным ведомством.</p>
+            <img src="images/Group 975.png" alt="" class="control-section-6-img right">
+            <h3 class="control-text-h3">В начале XX века возникла идея приблизить Государственный контроль не к Правительству, а к Думе, поскольку требовалось определить целесообразность расходов и качество хозяйственной деятельности. Во время деятельности Временного правительства Государственному контролю предоставили достаточно широкие полномочия: орган мог проводить проверки во всех областях хозяйства и даже возбуждать уголовные дела.</h3>
+        </div>
+
+        <div class="broken-line bl-2">
+            <p class="brokenline-text-a bl-2a">Падение монархии в 1971 году</p>
+            <img src="images/brokenline.png" alt="" class="broken-line-img">
+        </div>
+
+        <div class="control-section-7">
+            <p class="control-text-5">Создание Народного комиссариата и Коллегии государственного контроля. Комиссариат должен был проводить предварительную и фактическую ревизии хозяйственной и финансовой деятельности всех ведомств.</p>
+            <p class="control-text-5">Реорганизация Народного комиссариата в Народный Комиссариат рабоче-крестьянской инспекции (РКИ).</p>
+                <div class="sec7-media-1">
+                    <img src="images/export 9.png" alt="" class="sec7-media-img-1">
+                    <img src="images/123123.png" alt="" class="sec7-media-img-1-bg">
+                    <p class="sec7-media-text-1">«Члены ЦКК, обязанные присутствовать в известном числе на каждом заседании Политбюро, должны составить сплочённую группу, которая, «невзирая на лица», должна будет следить за тем, чтобы ничей авторитет, ни генсека, ни кого-либо из других членов ЦК, не мог помешать им сделать запрос, проверить документы и вообще добиться безусловной осведомлённости и строжайшей правильности дел.»</p>
+                </div>
+            <p class="control-text-5">Этот орган впоследствии постоянно менял свое название. Независимо от «ребрендинга» их функции совпадали, ведомства были централизованными, подчинялись фактически ЦК КПСС и имели большие права. К примеру, осуществляли контроль за разного рода предприятиями, учреждениями и организациями, накладывали дисциплинарные взыскания при необходимости, вычисляли денежные начеты и другое.</p>
+                <p class="sec7-text-left"><strong>Что такое начет?</strong> 
+                    </p>
+                    <p class="sec7-text-left s7tl"> 
+                     Это форма возмещения ущерба, причинённого государству, со стороны должностного лица.</p>
+                   
+                    <img src="images/321312.png" alt="" class="sec7-text-left-bg">
+                <div class="sec7-text-right">
+                    <p class="sec7-text-right-med">реорганизация в Комиссию партийного контроля при ЦК ВКП (б) и Комиссию советского контроля при СНК;</p>
+                    <p class="sec7-text-right-med">образование Наркомата государственного контроля;</p>
+                </div>
+            <p class="control-text-5">Создание контрольно-ревизионного управления. </p>
+            <p class="control-text-5">Оно производило документальные ревизии всех наркоматов, ведомств, организаций, учреждений и предприятий, а также имело право «давать руководителям ревизуемых учреждений и организаций обязательные для них указания об устранении выявленных при производстве ревизий нарушений финансовой дисциплины».  </p>
+            
+            <p class="control-text-5">Основание Министерства государственного контроля СССР. В результате было установлено право производить денежные начеты на виновных в причинении ущерба государству.</p>
+            <p class="control-text-5">Создание Комиссии советского контроля Совета Министров СССР.</p>
+            <p class="control-text-5">Комиссия осуществляла проверку фактического исполнения решений правительства по основным вопросам народного хозяйства, проводила контроль за целесообразностью расходования денежных средств и материальных ценностей.</p>
+                <div class="con-sec7-money">
+            <img src="images/Group 996.png" alt="" class="sect-7-img">
+            <img src="images/156.png" alt="" class="sect-7-img">
+            <img src="images/155.png" alt="" class="sect-7-img">
+            <img src="images/154.png" alt="" class="sect-7-img">
+                </div>
+            <p class="control-text-5">Создание Комитета партийно-государственного контроля ЦК и Совета Министров.</p>
+            <p class="control-text-5">Вступление в силу закона «Об органах народного контроля», а также образование Комитета народного контроля СССР (до 1990).</p>
+                <div class="sec7-media-2">
+                    
+                    <img src="images/export13.png" alt="" class="sec7-media-img-2">
+                    <img src="images/Group 671.png" alt="" class="sec7-media-img-3">
+                    <p class="sec7-media-text-2">«Органы народного контроля в своей деятельности опираются на инициативу и социалистическую сознательность советских людей. Главной их силой являются рабочие, колхозники, служащие, которые участвуют в работе групп, постов и комитетов народного контроля, добиваются претворения в жизнь решений Коммунистической партии и Советского государства.»</p>
+                </div>
+            <p class="control-text-5">Появление Контрольной палаты СССР. Она являлась высшим органом финансово-экономического контроля в стране.</p>
+        </div>
+
+
+        <div class="broken-line">
+            <p class="brokenline-text-a bl-3">Распад СССР в 1991 году</p>
+            <img src="images/brokenline.png" alt="" class="broken-line-img">
+        </div>
+
+        <section class="con-sec8">
+            <p class="con-sec8-text">Образование Контрольно-бюджетного комитета при Верховном Совете Российской Федерации. Комитет способствовал осуществлению законотворческой парламентской деятельности в бюджетно-финансовой сфере. В 1993 комитет был передан в ведение Правительства, а в 1994 — Государственной Думы.</p>
+            <p class="con-sec8-text">В 1993 комитет был передан в ведение Правительства, а в 1994 — Государственной Думы.</p>
+            <div class="con-sec8-box">
+                <img src="images/148.png" alt="" class="con-sec8-img">
+                <img src="images/147.png" alt="" class="con-sec8-img">
+                <img src="images/146.png" alt="" class="con-sec8-img">
+                <img src="images/145.png" alt="" class="con-sec8-img">
+            </div>
+            
+            <p class="con-sec8-text">Принятие Федерального закона «О Счетной палате». Первым Председателем был избран Хачим Мухамедович Кармоков (январь), а его заместителем (чуть позже, в январе 1995) — Юрий Юрьевич Болдырев. </p>
+            <img src="images/153.png" alt="" class="con-sec8-bgimg">
+            <p class="con-sec8-text-right">Счетная палата осуществляет контроль за исполнением федерального бюджета на основе принципов законности, объективности, независимости и гласности.</p>
+            <p class="con-sec8-text">Создание Счетной палаты, проведение первого заседания Коллегии. Это постоянно действующий независимый орган государственного финансового контроля, подотчетный лишь Федеральному Собранию России.</p>
+       
+        </section>
+
+
+
+        <section class="con-slider" id="con-slide" style="max-height: 400px;">
+
+            <div class="con-box" id="con-box">
+                <div class="con-box-inside" id="con-box-ins">
+                    
+                    <p class="con-box-text">Принятие Счетной палаты в Азиатскую организацию высших контрольных органов (АЗОСАИ). Представители России участвовали в работе ряда семинаров и симпозиумов и подготовке исследовательского проекта по вопросу контроля за исполнением налогового законодательства.</p>
+                    <img src="images/" alt="" class="con-box-img">
+                    <p class="con-box-text">Введение в практику Счетной палаты предварительного, документального и последующего контроля.</p>
+                    <img src="images/" alt="" class="con-box-img">
+                    <p class="con-box-text">Вход Счетной палаты РФ в состав Международного Консорциума по государственному финансовому управлению.</p>
+                    <img src="images/" alt="" class="con-box-img">
+                    <p class="con-box-text">Председателем Счетной палаты Государственная Дума назначила Сергея Вадимовича Степашина.</p>
+                    <img src="images/" alt="" class="con-box-img">
+                    <p class="con-box-text">Создание Ассоциации контрольно-счетных органов Российской Федерации. Она призвана содействовать разработке унифицированной системы контроля за формированием и исполнением бюджетов всех уровней бюджетной системы страны, а также помогать контрольно-счетным органам.</p>
+                    <img src="images/" alt="" class="con-box-img">
+                    <p class="con-box-text">Создание Союза муниципальных контрольно-счетных органов.</p>
+                    <img src="images/" alt="" class="con-box-img">
+                    <p class="con-box-text">Создание Научно-методического совета Ассоциации контрольно-счетных органов России.</p>
+                    <img src="images/" alt="" class="con-front-img">
+                    <p class="con-front-text">Деятельность Счётной палаты в первые годы своей работы</p>
+                    <img src="images/" alt="" class="con-front-img">
+                        <div class="con-box-inside-dates">
+                            <img src="images/1996.png" alt="" class="c-box-ins-d d-1996">
+                            <img src="images/1998.png" alt="" class="c-box-ins-d d-1998">
+                            <img src="images/1999.png" alt="" class="c-box-ins-d d-1999">
+                            <img src="images/2000.png" alt="" class="c-box-ins-d d-2000">
+                            <img src="images/2002.png" alt="" class="c-box-ins-d d-2002">
+                            <img src="images/2003.png" alt="" class="c-box-ins-d d-2003x">
+                            <img src="images/1996.png" alt="" class="c-box-ins-d d-1996-a">
+                            <img src="images/110.png" alt="" class="c-box-ins-d a-1996">
+                            <img src="images/2003.png" alt="" class="c-box-ins-d d-2003-a">
+                        </div>
+                </div>  
+            </div>
+                <button class="con-inp-btn" id="con-inp-btn" onclick="conclick()"><img src="images/144.png" alt="" class="con-btn-img"></button>
+    
+        </section>
+
+        <section class="con-sec9">
+                        <img src="images/2011.png" alt="" class="d-2011">
+                        <img src="images/1oct.png" alt="" class="oct-1"> 
+                        <img src="images/2013.png" alt="" class="d-2013">
+                        <img src="images/8apr.png" alt="" class="apr-8">
+                        <img src="images/20sep.png" alt="" class="sep-20">
+                        <img src="images/20nov.png" alt="" class="nov-20"> 
+                        <img src="images/Group 264.png" alt="tab" class="sec-date-broke a-nov-20">
+                        <img src="images/Group 264.png" alt="tab" class="sec-date-broke a-nov-201"> 
+                        <img src="images/2014.png" alt="" class="d-2014">
+                        <img src="images/2018.png" alt="" class="d-2018">
+                        <img src="images/2022.png" alt="" class="d-2022">
+                <p class="con9-text">Вступление в силу Федерального закона «Об общих принципах организации и деятельности контрольно-счетных органов субъектов Российской Федерации и муниципальных образований».</p>
+                    <div class="con9-sec-text">
+                        <p class="con9-text-left">Закон установил общие принципы организации деятельности, основные полномочия контрольно-счетных органов регионов и муниципалитетов на всей территории России. </p>
+                    </div>
+                    <p class="con9-text">Редакция Федерального закона «О Счетной Палате Российской Федерации».</p>
+                    <img src="images/143.png" alt="" class="con9-bg c-bg1">
+                    <p class="con9-text-right">В редакции прописано регулирование отношений, возникающих в процессе внешнего государственного аудита порядка формирования, управления и распоряжения средствами федерального бюджета. Помимо этого прописано, как происходят такие же действия с бюджетом государственных внебюджетных фондов.</p>
+                <p class="con9-text">Назначение на должность Председателя Счетной палаты Татьяны Алексеевны Голиковой.</p>
+                <p class="con9-text">Утверждение «Основных (приоритетных) направлений деятельности Счетной палаты РФ на 2014–2016 годы». Следует отметить следующие приоритеты</p>
+                    <p class="con9-text-right2">контроль исполнения указов Президента от 7 мая 2012 года, государственных программ, исполнения документов стратегического и концептуального характера,</p>
+                    <p class="con9-text-right2">развитие взаимодействия с органами государственной власти.</p>
+                <p class="con9-text">Поправки к Федеральному закону «О Счетной Палате Российской Федерации».</p>
+                    <img src="images/143.png" alt="" class="con9-bg c-bg2">
+                    <p class="con9-text-right3">Новая редакция требовала переформатирования взаимодействия Счетной палаты с региональными контрольно-счетными органами. Создание Совета контрольно-счетных органов России.</p>
+                <p class="con9-text">На должности председателя Счетной палаты Татьяну Голикову сменил Алексей Леонидович Кудрин. Помимо этого утверждены Стратегии развития на 2018–2024.</p>
+                <p class="con9-text">Уход с должности Председателя Счетной палаты Алексея Кудрина раньше положенного срока.</p>
+        </section>
+
+        <section class="con-sec-end">
+            <div class="con-end-block">
+                <p class="con-text-3nd">— Сынок, ты не видел тут книгу? — окликнул Назара тот самый старик. Он выглядел взволнованным и даже немного испуганным.</p>
+                <p class="con-text-3nd">— Вот же она, — вручил ему рукопись Назар, — я пытался вас отыскать, но на ярмарке так шумно и много людей…</p>
+                <p class="con-text-3nd">— Эта книга очень ценна для меня, — перебил старец, нервно пряча книгу в сумку, — и больше, чем потерять ее, я боялся, что она попадет в дурные руки…</p>
+                <p class="con-text-3nd">Он замолк, исподлобья взглянув на юношу. Назар понял, что речь шла о банде Пинхаса, которая наверняка бы уничтожила эту книгу. Юный путешественник понимающе кивнул, лицо старика тут же расслабилось.</p>
+                <p class="con-text-3nd">— Вижу, что у тебя доброе сердце и благие намерения, поэтому возьми эту книгу, она станет помощником в твоем путешествии, — он вручил ее Назару, многозначительно улыбнулся и пропал в толпе. Счетик, сидевший на плече парня, оглянулся по сторонам, но лишь устало гаркнул. Видимо, снова искать старика не имело смысла.</p>
+                <p class="con-text-3nd">Ошеломленный такой внезапной щедростью парень спрятал книгу в рюкзаке и решил поскорее покинуть ярмарку. Кто знает, может, это была ловушка?..</p>
+            </div>
+        
+            <div class="section-link con">
+                <div class="link-next con-a">
+                <a href="report.html"><img src="images/141.png" alt="Продолжить путеществие"></a>
+                </div>
+            </div>
+        
+        </section>
+
+
+
+
+
+    <div class="control-dates-box">
+        <img src="images/Group 935.png" alt="1060" class="d-1060">
+        <img src="images/Group 938.png" alt="1325" class="d-1325">
+        <img src="images/Group 264.png" alt="a-1325" class="sec-date-broke a-1325">
+        <img src="images/1340.png" alt="1340" class="d-1340">
+        <img src="images/Group 939.png" alt="1462" class="d-1462">
+            <img src="images/Group 264.png" alt="tab" class="sec-date-broke a-1462">
+            <img src="images/1505.png" alt="1505" class="d-1505">
+        <img src="images/Group 940.png" alt="1533" class="d-1533">
+                <img src="images/Group 264.png" alt="a-1533" class="a-1533">
+                <img src="images/1584.png" alt="1584" class="d-1584">  
+      
+                <img src="images/Group 941.png" alt="1654" class="d-1654">
+                
+                <svg id="t-right-1" width="161" height="56" viewBox="0 0 161 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M117.904 8.65756C99.3291 8.65756 80.7436 8.45387 62.1711 8.71619C44.2766 8.96893 20.0071 9.40142 4.8131 20.852C1.13904 23.6209 1.14194 30.3667 2.49091 34.4535C3.43813 37.3232 6.42523 39.1161 8.87693 40.5507C19.336 46.6709 32.3183 49.6635 44.1742 51.4554C69.8802 55.3405 99.0115 54.6253 124.464 50.3415C133.323 48.8504 141.637 44.614 149.253 39.9645C152.021 38.2747 158.895 35.1274 158.658 30.8186C158.434 26.7412 152.945 23.1958 150.298 20.9106C145.291 16.5884 139.914 14.0096 134.217 10.8268C130.269 8.6211 119.707 5.643 117.904 2" stroke="#3E3A24" stroke-width="3" stroke-linecap="round"/>
+                    </svg>
+                    
+                <img src="images/Group 942.png" alt="Oficialnoe nachalo" class="t-right-2">
+                <img src="images/Group 943.png" alt="1711" class="d-1711">
+        <img src="images/1733.png" alt="" class="d-1733">
+        <img src="images/1741.png" alt="" class="d-1741">
+        <img src="images/Group 264.png" alt="" class="sec-date-broke a-1741">
+        <img src="images/1761.png" alt="" class="d-1761">
+        <img src="images/1762.png" alt="" class="d-1762">
+        <img src="images/Group 264.png" alt="" class="sec-date-broke a-1762">
+        <img src="images/1796.png" alt="" class="d-1796">
+        <img src="images/1810.png" alt="" class="d-1810">
+        <svg id="a-1810" width="231" height="10" viewBox="0 0 231 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1.66406 2.63431C28.1641 6.63431 63.7292 0.0110024 103.164 2.63431C140.664 5.12891 191.664 12.1265 228.664 4.63819" stroke="#3E3A24" stroke-width="3" stroke-linecap="round"/>
+            </svg>
+            
+        <img src="images/1850.png" alt="" class="d-1850">
+        <img src="images/1892.png" alt="" class="d-1892">
+        <img src="images/xx.png" alt="" class="d-xx">
+        <img src="images/1917.png" alt="" class="d-1917">
+        <img src="images/1920.png" alt="" class="d-1920">
+        <img src="images/1934.png" alt="" class="d-1934">
+        <img src="images/1940.png" alt="" class="d-1940">
+        <img src="images/1937.png" alt="" class="d-1937">
+        <img src="images/1946.png" alt="" class="d-1946">
+        <img src="images/1957.png" alt="" class="d-1957">
+        <img src="images/1964.png" alt="" class="d-1964">
+        <img src="images/1965.png" alt="" class="d-1965">
+        <img src="images/1990.png" alt="" class="d-1990">
+        <img src="images/Group 264.png" alt="tab" class="sec-date-broke a-1990">
+        <img src="images/1991.png" alt="" class="d-1991">
+        <img src="images/1992.png" alt="" class="d-1992">
+        <img src="images/1994.png" alt="" class="d-1994">
+        <img src="images/1995.png" alt="" class="d-1995">
+        
+    </div>
+
+    
+
+
+</main>
+
+<script src="script.js"></script>
+<script>
+    updateProgress();
+  </script>
+</body>
+</html> 

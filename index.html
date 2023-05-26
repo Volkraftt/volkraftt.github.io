@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Roboto:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <a href="story.html" class="nav-item">История</a>
+            <a href="about.html" class="nav-item nav-left">О проекте</a>
+        </nav>
+                <!--ProgressBar-->
+    <div class="progress-container">
+        <div class="progressBar" id="myBar">
+        </div>
+    </div>
+           <!--Burger-->
+    <div class="burger">   
+            <input type="checkbox" id="check-menu">
+            <label class="label-menu" for="check-menu"><img src="images/Group 984.png" alt="" class="burger-img"></label>
+        <nav class="main-menu-1">
+            <a href="/story.html" class="wrapper-link">История</a>
+            <a href="/about.html" class="wrapper-link">О проекте</a>
+        </nav>
+    </div>
+   
+    </header>
+
+   
+    <style>
+        body{
+            background: linear-gradient(180deg, #433A3A 0%, #3E3A24 0.01%, #787A4C 47.4%, #CF694D 100%);
+            background-attachment: fixed;
+        }
+    </style>
+    <main class="main-section">
+          <div class="img-screen">
+            <img src="images/image-main.png" alt="Main" class="main-screen">
+          </div>
+        <div class="section-1">
+            <h1 class="text-1">
+                Неверленд, 2123 год. Некогда процветающий регион, теперь это полузаброшенная местность. Она поделена на три локации — вобравшая остатки уюта Деревня, опустелый и опасный Разлом, а также Столица — величественная в прошлом, но теперь захваченная бандой преступников во главе с Пинхасом.
+            </h1>
+            <p class="text-1">В Деревне живет молодой юноша по имени Назар, сын загадочно пропавшего исследователя аудита и финансового контроллинга. От отца осталась лишь карта, на ко​торой разбросаны точки с местонахождением его архивов. Ведь если бы он хранил все в одном месте, банда Пинхаса разом зачистила библиотеку.</p>
+        </div>
+        
+        <div class="section-2">
+            <div class="main-items">
+                <img src="images/image33.png" alt="" class="i-sec2-back">
+                <p class="text-3">Назар устал видеть страдания своих друзей и близких и решил отправиться в долгое и опасное путешествие. Его цель — собрать все знания, которые указаны на карте отца. В Неверленде работает метро, так что Назар может свободно перемещаться по локациям. За нашим героем последует его верный друг по имени Счётик —<br> умная киберворона.</p>
+            </div>
+            <div class="img-char-sec">
+                <img src="images/image5.png" alt="Voron" class="img-char-main">
+                <img src="images/image6.png" alt="Char" class="img-char-main-1">
+            </div>
+        </div>
+        <div class="section-onmap">
+                <a href="/map.html" class="onmap-link" >Начать приключение</a>
+        </div>
+    </main>
+  
+    <script src="script.js"></script>
+    <script>
+        setElementWidth()
+    </script>
+</body>
+</html>
