@@ -1,0 +1,248 @@
+html {
+  height: 100vh;
+  margin: 0;
+}
+body{
+  margin: 0;
+  height: 100vh;
+}
+button{
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+
+/*svg {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 91.5vh;
+  margin: 0;
+  padding: 0;
+
+}
+.svg-map{
+  margin-top: 80px;
+}
+.map {
+  margin: 0;
+  transition: transform 1.5s;
+}
+
+.district {
+  cursor: pointer;
+  fill: rgba(217, 217, 217, 0.01);
+}
+
+.district:hover {
+  fill: none;
+}
+*/
+
+.header-2{
+  position: absolute !important;
+}
+.button-back{
+    position: absolute;
+    top: 80px;
+    z-index: 10;
+    right: 2%;
+    border: 0;
+    background-color: none;
+    font-family: 'roadkill';
+font-style: normal;
+font-weight: 500;
+font-size: 100px;
+color: #EFEDDC;
+}
+
+
+.link{
+  position: absolute;
+  font-family: 'roadkill';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 36px;
+  text-align: center;
+  color: #EFEDDC;
+  width: 200px;
+}
+.village-c, .stolica-c, .razlom-c{
+  text-align: center;
+font-family: 'Myfont2';
+font-style: normal;
+font-weight: 500;
+font-size: 60px;
+line-height: 98px;
+color: #EFEDDC;
+}
+.stolica-c{
+  position: absolute;
+  transform: translate(6.7em, 1.5em);
+  -webkit-transform: translate(6.7em, 1.5em);
+  -moz-transform: translate(6.7em, 1.5em);
+  -o-transform: translate(6.7em, 1.5em);
+  -ms-transform: translate(6.7em, 1.5em);
+}
+.village-c{
+  position: absolute;
+  transform: translate(0.7em, 2.5em);
+  -webkit-transform: translate(0.7em, 2.5em);
+  -moz-transform: translate(0.7em, 2.5em);
+  -o-transform: translate(0.7em, 2.5em);
+  -ms-transform: translate(0.7em, 2.5em);
+}
+.razlom-c{
+  position: absolute;
+  -webkit-transform: translate(4.7em, 2.5em);
+  transform: translate(4.7em, 2.5em);
+  -moz-transform: translate(4.7em, 2.5em);
+  -o-transform: translate(4.7em, 2.5em);
+  -ms-transform: translate(4.7em, 2.5em);
+}
+.link-1{
+  transform: translate(6em, 4.5em);
+  -webkit-transform: translate(6em, 4.5em);
+  -moz-transform: translate(6em, 4.5em);
+  -o-transform: translate(6em, 4.5em);
+  -ms-transform: translate(6em, 4.5em);
+}
+.link-2{
+  transform: translate(10em, 0.5em);
+  -webkit-transform: translate(10em, 0.5em);
+  -moz-transform: translate(10em, 0.5em);
+  -o-transform: translate(10em, 0.5em);
+  -ms-transform: translate(10em, 0.5em);
+}
+.link-3{
+  transform: translate(2em, 1em);
+  -webkit-transform: translate(2em, 1em);
+  -moz-transform: translate(2em, 1em);
+  -o-transform: translate(2em, 1em);
+  -ms-transform: translate(2em, 1em);
+}
+.link-33{
+  transform: translate(6em, -1.5em);
+  -webkit-transform: translate(6em, -1.5em);
+  -moz-transform: translate(6em, -1.5em);
+  -o-transform: translate(6em, -1.5em);
+  -ms-transform: translate(6em, -1.5em);
+}
+.link-4{  
+  transform: translate(9.7em, 1.5em);
+  -webkit-transform: translate(9.7em, 1.5em);
+  -moz-transform: translate(9.7em, 1.5em);
+  -o-transform: translate(9.7em, 1.5em);
+  -ms-transform: translate(9.7em, 1.5em);
+}
+.link-5{  
+  transform: translate(4em, 3.5em);
+  -webkit-transform: translate(4em, 3.5em);
+  -moz-transform: translate(4em, 3.5em);
+  -o-transform: translate(4em, 3.5em);
+  -ms-transform: translate(4em, 3.5em);
+}
+.link-6{  
+  transform: translate(9em, 7.5em);
+  -webkit-transform: translate(9em, 7.5em);
+  -moz-transform: translate(9em, 7.5em);
+  -o-transform: translate(9em, 7.5em);
+  -ms-transform: translate(9em, 7.5em);
+}
+
+
+
+
+
+.link-7{
+  transform: translate(-6em, 3em);
+  -webkit-transform: translate(6em, 1em);
+  -moz-transform: translate(-6em, 1em);
+  -o-transform: translate(-6em, 1em);
+  -ms-transform: translate(-6em, 1em);
+}
+.link-8{
+  transform: translate(-1em, -1em);
+  -webkit-transform: translate(10em, -1em);
+  -moz-transform: translate(-1em, -1em);
+  -o-transform: translate(-1em, -1em);
+  -ms-transform: translate(-1em, -1em);
+}
+
+@media screen and (max-width: 768px){
+  .button-back{
+    top: 65px;
+    font-size: 40px;
+}
+
+.razlom-c{
+  font-size: 90px;
+  font-weight: 500;
+}
+
+.stolica-c{
+  font-size: 90px;
+  font-weight: 500;
+}
+
+.village-c{
+  font-size: 90px;
+  font-weight: 500;
+}
+
+}    
+
+
+
+.map-js{
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  
+}
+.map{
+  position: relative;
+  width: 4096px;
+  height: 4096px;
+  left: 50%;
+  top: 50%;
+  transition: 1s ease;
+}
+#image0_330_1263{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.razlom-block{
+  width: 400px;
+height: 200px;
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  transform: translate(-103%, -276%);
+}
+.stolica-block{
+  width: 400px;
+height: 200px;
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  transform: translate(-5%, 67%);
+}
+.village-block{
+  width: 400px;
+height: 200px;
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  transform: translate(-131%, -19%);
+}
