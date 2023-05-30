@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>О проекте</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Roboto:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--Header-Start-->
+<header class="header-2">
+    <div class="nav-items-2">
+            <div class="nav-logo">
+                <a href="/index.html"><img src="images/logo.png" alt="Logo"></a>
+            </div>
+  
+        <nav class="nav-2">
+            <a href="map.html" class="nav-item-2">Карта</a>
+            <a href="faq.html" class="nav-item-2">F.A.Q</a>
+            <a href="story.html" class="nav-item-2">История</a>
+            <a href="about.html" class="nav-item-2">О проекте</a>
+        </nav>          
+    </div>
+        <!--ProgressBar-->
+    <div class="progress-container">
+        <div class="progressBar" id="myBar">
+        </div>
+    </div>
+           <!--Burger-->
+    <div class="burger">   
+            <input type="checkbox" id="check-menu">
+            <label class="label-menu" for="check-menu"><img src="images/Group 984.png" alt="" class="burger-img"></label>
+        <nav class="main-menu">
+            <a href="/map.html" class="wrapper-link">Карта</a>
+            <a href="faq.html" class="wrapper-link">F.A.Q</a>
+            <a href="/story.html" class="wrapper-link">История</a>
+            <a href="/about.html" class="wrapper-link">О проекте</a>
+        </nav>
+    </div>
+  </header>
+  <!--Header-End-->
+    <!--Main-->
+    <style>
+        body{
+            background: linear-gradient(180deg, #3E3A24 0%, #787A4C 100%) !important;
+            background-attachment: fixed;
+        }
+
+    </style>
+    <main class="main-about">
+        
+        <div class="about-title">
+            <div class="title">
+                <h1 class="title-text">О проекте</h1>
+            </div>
+        </div>
+        <!--Body-->
+
+        <div class="about-section-1">
+            <p class="about-text-1">Проект выполнен в рамках сотрудничества Счетной палаты РФ и Института медиа Национального исследовательского университета «Высшая школа экономики».</p>
+        </div>
+
+        <div class="about-section-2">
+            <h2 class="about-text-title">Рабочая группа проекта:</h2>
+            <div class="about-text-2-block">
+                <p class="about-text-2"><strong>Руководитель проекта:</strong> Михаил Зеленцов
+
+                    <br><br><b>Консультанты от Счетной палаты:</b> Александра Горваль, Егор Коробкин 
+                    
+                    <br><br><b>Куратор мультимедиа направления:</b>  Алексей Новичков
+                    
+                    <br><br><strong>Консультант Школы финансов Факультета экономических наук:</strong> Аглая Кокурина
+                    
+                    <br><br><b>Шеф-редактор:</b> Мария Бурутина
+                    
+                    <br><br><b>
+                        Заместитель шеф-редактора: </b> Ксения Тареева
+                    
+                    <br><br><b>Фронтенд-разработчик:</b> Илья Клинов
+                        
+                    <br><br><b>Иллюстраторы:</b> Евгений Мюнц, Алина Никонова
+                
+                    <br><br><b>Диктор: </b> Владимир Ананьев
+                
+                </p>
+
+                    
+            <p class="about-text-2 about-right"><strong>Отдел работы с текстами:</strong> <br> Шеф отдела: Виктория Калиниченко
+                <br><br> Ольга Анасьева, Полина Галишникова, Дарья Леонова, Карине Матевосян, Маргарита Матяшева, Дарья Мужикова, Арина Скоробогатова, Илона Палей, Елизавета Тохтуева, Андрей Шуватов 
+
+                <br><br><strong>Отдел медиа и технологий:</strong><br>Сценарист: Захар Филатов
+                <br><br>
+                Лолита Альметева, Артур Колосов, Екатерина Мигачева, Михаил Морозов, София Рыжкова, Валерия Фурмузакий
+                
+                <br><br><strong>Отдел продюсирования:</strong><br>Шеф отдела: Яна Матвиенко
+                <br><br>Полина Белодедова, Елизавета Дейтина, Эльвира Радиковна</p>
+
+            </div>
+        </div>
+
+        <div class="about-section-3">
+            <p class="about-text-3">В проекте использованы:</p>
+            <div class="about-img-block">
+                <div class="about-img-block-ins">
+                    <button class="ab-but-block ad-1" onclick="AdSec1()">
+                        <img src="images/Group 746.png" alt="Визуальные материалы" class="about-img-1">
+                    </button>
+                    <button class="ab-but-block ad-2" onclick="AdSec3()">
+                        <img src="images/Group 744.png" alt="Справочные материалы" class="about-img-1">
+                    </button>
+                    <button class="ab-but-block ad-3" onclick="AdSec2()">
+                        <img src="images/Group 745.png" alt="Аудио материалы" class="about-img-1">
+                    </button>
+                 </div>
+            </div>
+        </div>
+
+        <section class="ab-sec-text-vis" id="ad-id1">
+            <p class="ad-text-vis">Александр Герасимов / Государственный исторический музей, Александр Янов / Серпуховский историко-художественный музей, ЕАЭС, Клавдий Лебедев / Третьяковская галерея, Монетник.ру, Президентская библиотека, abali.ru, BRICs, EURORAI, EUROSAI, Flaticon.com, free-png.ru, freepngtransparent.com, iconscout.com, INTOSAI, @iwat1929/freepik.com, @pch.vector/freepik.com, @photo3idea_studio/flaticon.com, pngegg.com, pngwing.com, @valadzionak_volha/freepik.com, @vectorpouch/freepik.com</p></section>
+        <section class="ab-sec-text-aud" id="ad-id2">
+            <p class="ad-text-aud">Bernard/zvukipro.com, Celenapra/zvukipro.com, Claudia/zvukipro.com, noisefx.ru, Nokonenn/zvukipro.com, Nordic/zvukipro.com, Nymapuma/zvukipro.com, Petro/zvukipro.com, Starec/zvukipro.com, Zorro/zvukipro.com, zvukogram.com</p>
+        </section>
+        <section class="ab-sec-text-sp" id="ad-id3">
+            <ol>
+                <li class="ad-li">"База рекомендаций" [Электронный ресурс] // Счетная палата. Режим доступа:  https://rec.ach.gov.ru/ (дата обращения: 27.04.2023)</li>
+                <li class="ad-li">"История Государственного финансового контроля" [Электронный ресурс]. Ульяновск:  Управление Федерального казначейства по Ульяновской области. Режим доступа: https://ulyanovsk.roskazna.gov.ru/inaya-deyatelnost/publikatsii4/detail.php?id=1331154 (дата обращения: 20.01.2023).</li>
+                <li class="ad-li">"История государственного финансового контроля" [Электронный ресурс]. Режим доступа: https://rufincontrol.ru/article/298021/ (дата обращения: 21.01.2023).</li>
+                <li class="ad-li">"История развития государственного финансового контроля в России от основания государства до наших дней" [Электронный ресурс]. Красноярск: Красноярская государственная сельскохозяйственная академия имени профессора И.В. Мичурина. Режим доступа: https://www.krzarya.ru/files/uploads/files/ictori.pdf (дата обращения: 20.01.2023).</li>
+                <li class="ad-li">"История финансового контроля" [Электронный ресурс]. Московская областная государственная казенная служба. Режим доступа: https://ksp.mosreg.ru/node/757 (дата обращения: 24.01.2023).</li>
+                <li class="ad-li">"История финансового контроля России" [Электронный ресурс]. Региональный информационный портал Управления Федеральной службы судебных приставов по Республике Башкортостан. Режим доступа:https://r61.fssp.gov.ru/inf_smi132/ (дата обращения: 22.01.2023).</li>
+                <li class="ad-li">"Многостороннее сотрудничество" [Электронный ресурс] // Счетная палата. Режим доступа: https://ach.gov.ru/page/mnogostoronnee-sotrudnichestvo/ (дата обращения: 20.01.2023)</li>
+                <li class="ad-li">"Мониторинг незавершенного строительства в Российской Федерации" [Электронный ресурс] // Счетная палата. Режим доступа: https://ons.ach.gov.ru/ (дата обращения: 27.04.2023)</li>
+                <li class="ad-li">"Председательство Счетной палаты РФ в ИНТОСАИ: подводим предварительные итоги" [Электронный ресурс] // Счетная палата. Режим доступа: https://ach.gov.ru/intosai-president/predsedatelstvo-schetnoy-palaty-rf-v-intosai-predvaritelnye-itogi (дата обращения: 27.04.2023)</li>
+                <li class="ad-li">"Российско-китайский семинар" [Электронный ресурс] // Счетная палата. Режим доступа: https://ach.gov.ru/upload/pdf/Russia-China%20webinar%2029.06.pdf (дата обращения: 27.04.2023)</li>
+                <li class="ad-li">"Сотрудничество с ВАО других стран" [Электронный ресурс] // Счетная палата. Режим доступа: https://ach.gov.ru/page/sotrudnichestvo-s-vao-drugikh-stran/ (дата обращения: 20.01.2023)</li>
+                <li class="ad-li">"Стадии принятия бюджета" [Электронный ресурс] // ТАСС. Режим доступа: https://spec.tass.ru/budget-rf/?ysclid=leejfro3qn967133325 (дата обращения: 27.04.2023)</li>
+                <li class="ad-li">"Транспортная доступность.Инфографика" [Электронный ресурс] // Счетная палата. Режим доступа: https://ach.gov.ru/infographics/transportnaya-dostupnost (дата обращения: 27.04.2023)</li>
+                <li class="ad-li">Audit Procedures: Definition | Types | Example | List | Preparation: [Электронный ресурс] // Wikiaccounting. URL: https://www.wikiaccounting.com/audit-procedures-meaning-example-prepare/ (дата обращения: 27.04.2023) </li>
+                <li class="ad-li">Courtnell J. Audit Procedures: A Quick Tour with 19 (Free) Templates: [Электронный ресурс] // Process.st. URL: https://www.process.st/audit-procedures/ (дата обращения: 27.04.2023)</li>
+                <li class="ad-li">CТАНДАРТ ВНЕШНЕГО ГОСУДАРСТВЕННОГО АУДИТА (КОНТРОЛЯ) СГА 103 «ФИНАНСОВЫЙ АУДИТ (КОНТРОЛЬ)»: [Электронный ресурс] // Счетная палата. URL:  https://ach.gov.ru/upload/iblock/af1/af19a59d4a9505eb98f960cac0607e20.pdf?ysclid=le89ty6ucm165334721 (дата обращения: 26.04.2023)</li>
+                <li class="ad-li">Jha A. Audit Procedure: [Электронный ресурс] // EDUCBA. URL: https://www.educba.com/audit-procedure/ (дата обращения: 27.04.2023)</li>
+                <li class="ad-li">Абаджян, М. А. Аудит государственных закупок в системе общего аудита и государственного аудита в РФ / М. А. Абаджян // Аудит и контроль. - 2019. - № 12. - С. 39-46. - URL: https://www.elibrary.ru/item.asp?id=41432088 (дата обращения: 26.04.2023)</li>
+                <li class="ad-li">Абрамов, С.Б. (2003). Счетная палата Российской Федерации в условиях становления и развития системы финансового контроля в России, 1995-2003 гг.. — М.: [б. и.].</li>
+                <li class="ad-li">Аминова Э.М. Финансовый контроль в России: история и современность [Электронный ресурс]. Москва: МГИМО-Университет, 2016. Режим доступа: http://pravo.mgimo.ru/sites/default/files/pdf/007_aminovaem.pdf (дата обращения: 22.01.2023)</li>
+                <li class="ad-li">Андреев, С.А., Горохова, Д.В., Ванькович, И.М. (2021). Теория и история государственного финансового контроля. М.: Прометей.</li>
+                <li class="ad-li">Андреев С.А., Ванькович И.М., Горохова Д.В. [и др.]; под ред. Федченко Е.А. Теория и история государственного финансового контроля: Учебное пособие. М.: Прометей, 2021. 236 с.</li>
+                <li class="ad-li">Андрианова, Т. С., Растеряева, Т. В. (2019). Международная деятельность органов ГФК: ее значение для обеспечения финансовой безопасности. В: Сборник материалов Международной научно-практической конференции «Проблемы и перспективы развития науки в России и мире».  [Электронный ресурс]. Режим доступа: https://case.asu.ru//files/form_312-35510.pdf#page=151 </li>
+                <li class="ad-li">Аудит: когда, кому и зачем: [Электронный ресурс] // Бухгалтерия.ru. URL:https://www.buhgalteria.ru/article/audit-kogda-komu-i-zachem-?ysclid=ldahg9beam1944458 (дата обращения: 27.04.2023) </li>
+                <li class="ad-li">Аудит в схемах: учебное пособие / С. С. Мелещенко, Т. А. Снеткова. - Казань: Издательство Казанского университета, 2020. 205 c. URL: https://reader.lanbook.com/book/173022#2 (дата обращения: 27.04.2023) </li>
+                <li class="ad-li">Бурцев В.В. Контроллинг финансов: варианты и направления // Менеджмент сегодня. — 2003. — No5. — С.12–15. – URL: https://grebennikon.ru/article-0znH.html (дата обращения: 27.04.2023)</li>
+                <li class="ad-li">Бурцев В.В. Основные принципы внутреннего финансового аудита // Менеджмент сегодня. — 2005. — No6. — С.50–56. – URL: https://grebennikon.ru/article-cuwz.html (дата обращения: 27.04.2023)</li>
+                <li class="ad-li">Бюджетный кодекс Российской Федерации от 31.07.1998 N 145-ФЗ // Собрание законодательства Российской Федерации, 1998, № 31., Ст. 3823.</li>
+                <li class="ad-li">Вандина, О.Г. (2012). Система внутреннего контроля в условиях применения международных стандартов финансовой отчетности и аудита. Известия ОрелГТУ, (11), 71-74. [Электронный ресурс]. Режим доступа: http://www.library.oreluniver.ru/polnotekst/IzvestiyaOrelGTU/ecgum_11_2012.pdf#page=71</li>
+                <li class="ad-li">Виды аудита // E-xecutive.ru [Электронный ресурс]. URL: https://www.e-xecutive.ru/wiki/index.php/%D0%92%D0%B8%D0%B4%D1%8B_%D0%B0%D1<br>%83%D0%B4%D0%B8%D1%82%D0%B0 (дата обращения: 26.04.2023)</li>
+                <li class="ad-li">Владимиров О. В. Государственный финансовый контроль России в XVII - XIX вв.: Историко-правовое исследование. Белгород, 2003.</li>
+                <li class="ad-li">Высторопец, Т. Е. Финансовый контроллинг как инструмент бухгалтерского инжиниринга в управлении финансовым состоянием предприятия / Т. Е. Высторопец // Бухгалтерский учет. - 2022. - № 1(88). - С. 4-7. - URL: https://www.elibrary.ru/item.asp?id=47695520 (дата обращения: 26.04.2023)</li>
+                <li class="ad-li">Гайнутдинова, Р. М., Замбаев, Х. Н. Особенности применения международного опыта ИНТОСАИ в деятельности Счетной палаты РФ / Р.М. Гайнутдинова, Х.Н. Замбаев // Сборник статей по материалам X международной научно-практической конференции. - 2018. - Ч.2 - с. 91-92. - URL: https://www.elibrary.ru/item.asp?id=35430279 (дата обращения: 27.04.2023)</li>
+                <li class="ad-li">Горлов, Д. Р., Зарицкая, М. И., Тюкина, У. Е. Международная деятельность российских органов внешнего государственного финансового контроля: опыт и перспективы / Д. Р. Горлов,  М. И. Зарицкая, У. Е. Тюкина // Государственный финансовый контроль: от истоков до наших дней. - 2019. - С. 50-58. - URL: https://www.elibrary.ru/item.asp?id=42426107 (дата обращения: 27.04.2023)</li>
+                <li class="ad-li">Дружинина М. ТОП-10 выгод бизнесу и бухгалтерии от аудита в 2020 году?: [Электронный ресурс] // ПРАВОВЕСТ-Аудит. 2019. URL: https://pravovest-audit.ru/nashi-statii-nalogi-i-buhuchet/top-10-vygod-biznesu-i-bukhgalterii-ot-audita-v-2020-godu/?ysclid=ldagy6o0w5996977407 (дата обращения: 27.04.2023)</li>
+                <li class="ad-li">Дымова, И. А. Аудит : учебное пособие / И. А. Дымова. — Кемерово : КузГТУ имени Т.Ф. Горбачева, 2021. — 131 с. — ISBN 978-5-00137-249-3. — Текст : электронный // Лань : электронно-библиотечная система. — URL: https://e.lanbook.com/book/193900 (дата обращения: 24.02.2023)</li>
+                <li class="ad-li">Карандин, Д.Ю., Ревзон, О.А. Роль государственного внешнего долга в формировании бюджета Российской Федерации / Д. Ю. Карандин, О.А. Ревзон // Вестник ГУУ. - 2016. - №7–8. -  С. 146–151. - URL: https://elibrary.ru/xgjohp (дата обращения: 27.04.2023)</li>
+                <li class="ad-li">Корнеев, А. П., Волеводз, А. Г., Горелик, В. Я. К вопросу о наделении Счетной палаты Российской Федерации полномочиями в сфере международного сотрудничества / А.Г. Волеводз, А.П. Корнеев, В.Я. Горелик // Юрист. – 2000. - №7. – С.14-19. - URL: https://mgimo.ru/files/115347/115347.pdf (дата обращения: 27.04.2023)</li>
+                <li class="ad-li">Косов, М.Е., Иванова, Я.Я. Особенности формирования федерального бюджета в современных экономических условиях / М.Е. Косов, Я.Я. Иванова // Экономика и предпринимательство. - 2017. - №  8-3 (85). - С. 32–38. - URL: https://elibrary.ru/zmzgwt (дата обращения: 27.04.2023)</li>
+                <li class="ad-li">Кот, Е.М. & Э.Н. Элькина (2016) Основные принципы финансового контроля в России. Уральский государственный аграрный университет [Электронный ресурс]. Режим доступа: http://agvu.urgau.ru/ru/19-joomla/823-e-m-kot-e-n-elkina-osnovnye-printsipy-finansovogo-kontrolya-v-rossii.html</li>
+                <li class="ad-li">Крохина Ю. А. Международные акты и зарубежная практика как факторы оптимизации государственного финансового контроля России/ Ю.А. Крохина // Регион: системы, экономика, управление. - 2011. - № 1 (12). - С. 19-25. - URL: https://www.elibrary.ru/item.asp?id=18344990 (дата обращения: 27.04.2023)</li>
+                <li class="ad-li">Кукелко, Д. В. Методы государственного аудита: финансовый аудит и аудит эффективности / Д. В. Кукелко // Бухгалтерский учет. - 2020. - № 5. - С. 51-56. - URL: https://www.elibrary.ru/item.asp?id=42809877 (дата обращения: 26.04.2023)</li>
+                <li class="ad-li">Курманова, А. (2016). Финансовая отчетность. М.: Эксмо [Электронный ресурс]. Режим доступа: https://books.google.ru/books?hl=ru&lr=&id=nfrYDQAAQBAJ&oi=fnd&pg=PT3&dq=финансовая+отчетность<br>+что+такое&ots=xvxqDEAbYK&sig=7iYLc5bJkpAvZznf2XV4HyIFwRk&redir_esc<br>=y#v=onepage&q=финансовая%20отчетность%20что%20такое&f=false</li>
+                <li class="ad-li">МЕТОДИЧЕСКИЕ РЕКОМЕНДАЦИИ ПО ПРИМЕНЕНИЮ АУДИТА ЭФФЕКТИВНОСТИ»: [Электронный ресурс] // Счетная палата. URL: https://ach.gov.ru/upload/iblock/5d2/ykthc11mt2zom633f9hklb38r1vinhsw.pdf?ysclid=le898k2s74769434310 (дата обращения: 26.04.2023)</li>
+                <li class="ad-li">Международная деятельность российских органов внешнего государственного финансового контроля: опыт и перспективы [Электронный ресурс] //  URL: https://www.elibrary.ru/download/elibrary_42426107_15499703.pdf (дата обращения: 26.04.2023)</li>
+                <li class="ad-li">Модеров С.В. Применение МСФО и МСА в России. Текущая ситуация и перспективы // Управленческий учет и финансы. — 2014. — No4. — С.320–325. URL: https://grebennikon.ru/article-f6vq.html (дата обращения: 27.04.2023)</li>
+                <li class="ad-li">Нехорошкин, И. И., Солодов, А. В. Формирование методологических подходов к аудиту государственных информационных систем и проектов на международном уровне: роль Счетной палаты России / И.И. Нехорошкин, А.В. Солодов // Вестник АКСОР. - 2013. - № 2 (26). - С. 168-170. - URL: https://www.elibrary.ru/item.asp?id=19127077 ( дата обращения: 27.04.2023)</li>
+                <li class="ad-li">Общие принципы аудита: [Электронный ресурс] // Discovered. 2017. URL: https://discovered.com.ua/finance/obshhie-principy-audita/ (дата обращения: 27.04.2023) </li>
+                <li class="ad-li">Отчет о работе Счетной палаты Российской Федерации в 2020 году [Электронный ресурс] // Счетная палата. Режим доступа: https://ach.gov.ru/upload/reports/2020.pdf?ysclid=lbgu8pz6dm799309231 (дата обращения: 27.04.2023)</li>
+                <li class="ad-li">Отчет о работе Счетной палаты Российской Федерации в 2021 году [Электронный ресурс] // Счетная палата. Режим доступа: https://ach.gov.ru/upload/reports/2021.pdf (дата обращения: 27.04.2023)</li>
+                <li class="ad-li">Развитие образования : [Электронный ресурс] // Счетная палата. URL: https://ach.gov.ru/upload/pdf/budget/gp-2022/ГП-2_Развитие%20образования.pdf (дата обращения: 26.04.2023)</li>
+                <li class="ad-li">Рожнов, О.В. (2022). Актуальные проблемы отчетности. В: Сборник материалов Международной научно-практической конференции «Инновационные технологии в образовании и науке». [Электронный ресурс]. Режим доступа: http://www.iee.unn.ru/wp-content/uploads/sites/9/2022/04/SBORNIK-ITOG-221122-KOR.pdf</li>
+                <li class="ad-li">СТАНДАРТ ВНЕШНЕГО ГОСУДАРСТВЕННОГО АУДИТА (КОНТРОЛЯ) СГА 105 «СТРАТЕГИЧЕСКИЙ АУДИТ»: [Электронный ресурс] // Счетная палата. URL:  https://ach.gov.ru/upload/iblock/d57/d573b890bbe331d3707d2c98a4bf20f1.pdf (дата обращения: 26.04.2023)</li>
+                <li class="ad-li">Степашин С. В. Анализ процессов приватизации государственной собственности в Российской Федерации за период 1993-2003 годы (экспертно-аналитическое мероприятие) [Электронный ресурс] // Счетная патала, 2004. Режим доступа: http://www.lifeofpeople.info/LibraryOwnData/Conspect/17_3_20_s2_1.pdf?ysclid=lbgwta36yf773105945 (дата обращения 27.04.2023)</li>
+                <li class="ad-li">Тюрин Д.В. Маркетинговый аудит в российских компаниях: виды, формы и методы проведения // Менеджмент сегодня. — 2012. — No1. — С.12–26. – URL: https://grebennikon.ru/article-acep.html (дата обращения: 27.04.2023)</li>
+                <li class="ad-li">Хамхоева, Ф. Я., Яндиева, А. Р. Концепция финансового контроллинга в современных условиях / Ф. Я. Хамхоева, А. Р. Яндиева // Национальная Ассоциация Ученых. - 2017. - № 6(33). - С. 66-67. - URL: https://www.elibrary.ru/item.asp?id=32373036 (дата обращения:  26.04.2023)</li>
+                <li class="ad-li">Цветова, Г.В. Бюджетный процесс в Российской Федерации: методология, практика и перспективы развития : монография / Г.В. Цветова. М.: ДВИУ – филиал РАНХиГС (Хабаровск), 2015. 161 с.</li>
+                <li class="ad-li">Шейко И.В. Внутренний аудит как форма аудита корпоративного управления // Молодежь и наука: шаг к успеху: Сборник научных статей Всероссийской научной конференции перспективных разработок молодых ученых: в 3-х томах. Ответственный редактор Горохов А.А. Курск, 2017. – С. 453-455.</li>
+                <li class="ad-li">Шохин, С.О. Роль и место бюджета в системе государственного управления / С.О. Шохин // Государственная власть и местное самоуправление. - 2018. - № 1. - С. 45–47. - URL:https://elibrary.ru/item.asp?id=32398234 (дата обращения: 27.04.2023)</li>
+                <li class="ad-li">Эволюция государственного финансового контроля в РФ [Электронный ресурс]. - Режим доступа: http://nyagan.online/uploads/evolutija.pdf (дата обращения: 21.01.2023)</li>
+                <li class="ad-li">“Что такое аудит. Объясняем простыми словами”: [Электронный ресурс] Secretmag.ru URL: https://secretmag.ru/enciklopediya/chto-takoe-audit-obyasnyaem-prostymi-slovami.htm (дата обращения: 24.02.2023)</li>
+            </ol>
+        </section>
+
+
+     
+
+
+    </main>
+</body>
+</html>
